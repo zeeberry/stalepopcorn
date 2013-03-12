@@ -1,0 +1,40 @@
+       .rate_widget {
+            border:     1px solid #CCC;
+            overflow:   visible;
+            padding:    0px;
+            position:   relative;
+            width:      147px;
+            height:     33px;
+        }
+        .ratings_stars {
+            background: url('../images/pop_empty.png') no-repeat;
+            float:      left;
+            height:     33px;
+            padding:    0px;
+            width:      29px;
+        }
+        .ratings_vote {
+            background: url('../images/pop_full.png') no-repeat;
+        }
+        .ratings_over {
+            background: url('../images/pop_highlight.png') no-repeat;
+        }
+        .total_votes {
+            background: #EDE577;
+            top: 40px;
+            left: 0;
+            padding: 3px;
+            position:   absolute;  
+        } 
+        .movie_choice {
+            font: 10px verdana, sans-serif;
+            margin: 10px ;
+            width: 150px;
+            float:left;
+            height:auto;
+        }
+        h1 {
+            text-align: center;
+            width: 400px;
+            margin: 20px auto;
+        }

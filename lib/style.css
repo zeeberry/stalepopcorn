@@ -1,0 +1,196 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+background: #fff;
+font-size:12px;
+font-family:Verdana, sans-serif;
+color: #333;
+margin: 0;
+padding: 0;
+line-height: 16px;
+background:url(../images/yellow_stripes.jpg);
+}
+
+a {
+text-decoration: none;
+color: #000;
+}
+a:hover {
+text-decoration: none;
+color: #f8ad19;
+}
+
+#wrap {
+margin: 20px auto;
+width: 800px;
+}
+
+#header {
+height: 140px;
+background: #fff url(../images/header.jpg) no-repeat;
+border-style:solid;
+border-width:5px;
+}
+#header h1 { 
+font-size: 30px;
+padding: 35px 0 0 20px;
+color: #FFFF99;
+}
+#header h1 a { 
+color: #FFFF99;
+text-decoration: none;
+font-weight: 100;
+}
+#header h1 a:hover {
+color: #FFFF99;
+}
+#header h2 {
+font-size: 18px;
+color: #FFF;
+padding: 5px 0 0 20px;
+font-weight: 100;
+}
+#menu {
+height: 30px;
+line-height: 30px;
+border-style:solid;
+border-width:0px 0px 2px 0px;
+border-color:#000;
+}
+#menu ul {
+list-style-type: none;
+padding-left: 20px;
+}
+#menu ul li {
+display: block;
+float: left;
+}
+#menu ul li a {
+padding: 0 20px 0 0;
+text-decoration: none;
+font-weight: 100;
+font-size: 14px;
+color: #000;
+}
+#menu ul li a:hover {
+color: #f8ad19;
+text-decoration: none;
+}
+
+#content {
+padding: 0 20px 20px 20px;
+border-style:solid;
+border-width:5px;
+background-color: #fff;
+}
+#top {
+padding: 10px 0;
+}
+
+#content {
+padding: 0 20px;
+}
+
+#bottom {
+padding: 10px 0;
+}
+
+.left {
+float: left;
+width: 540px;
+text-align: justify;
+padding-top: 10px;
+height:auto;
+}
+.left h2 {
+font-size: 16px;
+font-weight: 100;
+height: 30px;
+line-height: 30px;
+background: #000;
+padding-left: 10px;
+color:#EDE577;
+}
+.left h2 a {
+text-decoration: none;
+color: #fff;
+}
+.left h2 a:hover {
+color: #eee;
+}
+.articles {
+padding: 13px;
+}
+
+.right {
+float: right;
+width: 200px;
+padding-top: 10px;
+
+}
+.right h2 {
+padding-left: 10px;
+height: 30px;
+line-height: 30px;
+background: #000;
+color: #EDE577;
+font-size: 13px;
+}
+.right ul {
+padding: 10px 0 15px 10px;
+list-style-type: none;
+}
+.right ul li a {
+color: #000;
+text-decoration: none;
+font-size: 12px;
+font-weight: 600;
+}
+.right ul li a:hover {
+color: #f8ad19;
+}
+
+#footer {
+text-align: center;
+font-size: 11px;
+padding: 10px 0;
+}
+/* Bar Graphs */
+.graph {
+  width: 250px;
+  position: relative;
+  right: 30px;
+}
+.bar_title {
+  position: relative;
+  float: left;
+  width: 104px;
+  line-height: 20px;
+  margin-right: 17px;
+  font-weight: bold;
+  text-align: right;
+}
+.bar_container {
+  position: relative;
+  float: left;
+  width: 110px;
+  height: 10px;
+  margin: 0px 0px 15px;
+}
+
+.bar_container div {
+  background-color:#cc4400;
+  height: 20px;
+}
+.bar_container strong {
+  position: absolute;
+  right: -32px;
+  top: 0px;
+  overflow: hidden;
+}
+#poll_results p {
+  text-align: center;
+}
